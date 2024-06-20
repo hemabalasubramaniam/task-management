@@ -55,7 +55,6 @@ The project is structured using React with organized components and folders for 
 #Configuration
 
 #Set up Firebase:
-
 	1.Create a Firebase project.
 	2.Configure Firebase Authentication and Firestore.
 	3.Obtain Firebase configuration details.
