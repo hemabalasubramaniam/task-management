@@ -82,3 +82,7 @@ The project is structured using React with organized components and folders for 
 	1.Complete Update functionality for tasks.
 	2.Enhance testing coverage using Jest and React Testing Library.
 	3.Improve user interface and user experience based on feedback.
+
+** #Attached the output screenshots below:**
+ [task-management.pdf](https://github.com/user-attachments/files/15918541/task-management.pdf)
+
