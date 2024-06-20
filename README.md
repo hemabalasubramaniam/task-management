@@ -1,10 +1,10 @@
-#Task Management Application
+**#Task Management Application**
 
 
-#Overview:
+**Overview:**
 This project is a task management application built using React and Firebase. It allows users to register, log in, create tasks, perform CRUD operations on tasks, filter and sort tasks based on various criteria, and manage tasks through a responsive user interface.
 
-#Features:
+**#Features:**
 #Project Setup
 The project is structured using React with organized components and folders for scalability.
 
