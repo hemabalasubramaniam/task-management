@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+#Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#Overview:
+This project is a task management application built using React and Firebase. It allows users to register, log in, create tasks, perform CRUD operations on tasks, filter and sort tasks based on various criteria, and manage tasks through a responsive user interface.
 
-In the project directory, you can run:
+#Features:
+#Project Setup
+The project is structured using React with organized components and folders for scalability.
 
-### `npm start`
+#User Authentication
+	1.Integrated Firebase for user authentication.
+	2.Users can register, log in, and access a protected dashboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Login and Register Components
+	1.Implemented using Formik and Yup for form validation.
+	2.Included a registration link on the login page for new users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Task CRUD Operations
+	1.Utilized Firebase Firestore for storing tasks.
+	2.Implemented Create, Read, and Delete operations for tasks.
+	3.Update functionality in progress.
 
-### `npm test`
+#Filtering and Sorting
+	1.Implemented filtering tasks by status and priority.
+	2.Sorted tasks by dates using JavaScript's array functions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#State Management
+	1.Managed global state using Context API.
+	2.Used useContext to access state and methods across components.
 
-### `npm run build`
+#Responsiveness
+	1.Designed the application to be responsive across different screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Styling
+	1.Utilized semantic HTML elements.
+	2.Applied custom styling for enhanced user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Error Handling
+	1.Implemented error handling using try-catch blocks for API requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#Testing
+	1.Started implementing Jest for testing components and functionality.
 
-### `npm run eject`
+#Installation and Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#Prerequisites
+	1.Node.js and npm installed locally.
+	2.Firebase account for authentication and Firestore database.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Installation
+	1.Clone the repository: git clone <repository-url>
+	2.Install dependencies: npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#Set up Firebase:
 
-## Learn More
+	1.Create a Firebase project.
+	2.Configure Firebase Authentication and Firestore.
+	3.Obtain Firebase configuration details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#Start the development server: npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Open the application in your browser at http://localhost:3000
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Future Enhancements
+	1.Complete Update functionality for tasks.
+	2.Enhance testing coverage using Jest and React Testing Library.
+	3.Improve user interface and user experience based on feedback.
