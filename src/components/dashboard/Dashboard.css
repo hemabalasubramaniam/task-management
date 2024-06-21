@@ -1,0 +1,107 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 2vw;
+    box-shadow: 0px 2px 10px 2px gainsboro;
+}
+
+.navbarLeft{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.navbarRight{
+    display: flex;
+    align-items: center;
+}
+
+.navbarRight > div{
+    margin: 0vw 1vw;
+    font-size: 1.2vw;
+}
+
+.dashboardWrapper{
+    margin: 4vw 3vw 2vw;
+}
+
+.filterSection{
+    margin: 1vw 0vw;
+}
+
+.filterAccordion{
+    padding: .8vw 1.5vw;
+    box-shadow: 0px 1px 4px 1px gainsboro;
+}
+
+.accordionheader{
+    font-weight: 900 !important;
+    font-size: 1.2vw !important;
+}
+
+.accordionContent > div{
+    margin-top: 2vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        padding: 3vw 2vw;
+    }
+    .navbarRight > div{
+        margin: 0vw 4vw;
+        font-size: 1.8vw;
+    }
+    .filterSection{
+        margin: 3vw 0vw;
+    }
+
+    .filterAccordion{
+        padding: 2vw 4vw;
+    }
+
+    .accordionheader{
+        font-size: 2vw !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar{
+        padding: 3vw 2vw;
+    }
+    .navbarRight > div{
+        margin: 0vw 4vw;
+        font-size: 2.5vw;
+    }
+    .filterSection{
+        margin: 5vw 0vw;
+    }
+
+    .filterAccordion{
+        padding: 4vw 4vw;
+    }
+
+    .accordionheader{
+        font-size: 3vw !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar{
+        padding: 4vw 2vw;
+    }
+    .navbarRight > div{
+        margin: 0vw 4vw;
+        font-size: 4vw;
+    }
+    .filterSection{
+        margin: 7vw 0vw;
+    }
+
+    .filterAccordion{
+        padding: 6vw 4vw;
+    }
+
+    .accordionheader{
+        font-size: 3.5vw !important;
+    }
+}

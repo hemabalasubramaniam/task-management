@@ -1,0 +1,36 @@
+.taskFormWrapper{
+    box-shadow: 0px 2px 10px 2px gainsboro;
+    width: 35%;
+    margin: auto;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+
+.btnSection{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1200px){
+    .taskFormWrapper{
+        width: 55% !important;
+        margin-top: 10vw !important;
+        padding: 5vw 4vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .taskFormWrapper{
+        width: 65% !important;
+        margin-top: 10vw !important;
+        padding: 5vw 4vw;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .taskFormWrapper{
+        width: 85% !important;
+        margin-top: 10vw !important;
+        padding: 5vw 4vw;
+    }
+}

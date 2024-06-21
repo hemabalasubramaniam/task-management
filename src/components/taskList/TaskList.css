@@ -1,0 +1,120 @@
+.taskContainer{
+    margin: 3vw 0vw;
+    padding: .8vw 1.5vw;
+    box-shadow: 0px 1px 4px 1px gainsboro;
+}
+
+.noTask{
+    padding: 1vw 0vw;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.taskCard{
+    border: 1px solid gainsboro;
+    margin: 1vw 0vw;
+    padding: 1vw;
+}
+
+.taskCard > div{
+    margin: .8vw 0vw;
+    font-size: 1.05vw;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+}
+
+.actions > div{
+    margin: 0vw .3vw;
+}
+
+.edit{
+    color: #2185d0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.delete{
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .taskContainer{
+        padding: 2vw 3vw; 
+    }
+
+    .noTask{
+        font-size: 1.8vw;
+    }
+    .taskCard{
+        padding: 5vw 3vw;
+        margin: 1vw;
+    }
+    .taskCard > div{
+        margin: 3.5vw 0vw;
+        font-size: 1.8vw;
+    }
+
+    .actions > div{
+        margin: 0vw .8vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .taskContainer{
+        padding: 3vw 3vw; 
+    }
+
+    .noTask{
+        font-size: 2.5vw;
+    }
+    .taskCard{
+        padding: 5vw 3vw;
+        margin: 1vw;
+    }
+    .taskCard > div{
+        margin: 3.5vw 0vw;
+        font-size: 2.3vw;
+    }
+
+    .actions > div{
+        margin: 0vw .8vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .taskContainer{
+        padding: 4vw 3vw; 
+    }
+
+    .noTask{
+        font-size: 3vw;
+    }
+    .taskCard{
+        padding: 5vw 3vw;
+        margin: 1vw;
+    }
+    .taskCard > div{
+        margin: 3.5vw 0vw;
+        font-size: 3.5vw;
+    }
+
+    .actions > div{
+        margin: 0vw .8vw;
+    }
+}
